@@ -1,5 +1,7 @@
-# qa_practice_okulik
+# Запуск автотеста на GitHub
 ___
-### Тестирование веб страницы
-___
+### 1. Импортируем в файлы с тестами 
+
+*from selenium.webdriver.chrome.options import Options*
+
 
