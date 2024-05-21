@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from pages.simple_button import SimpleButtonPage
+import allure
 
 
 def test_button_exist(browser):
