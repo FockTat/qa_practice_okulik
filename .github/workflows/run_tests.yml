@@ -32,7 +32,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: first_test
         if: "github.event.inputs.deployment_target == 'fist_test'"
-        run: pytest
+        run: pytest tests/test_button_page.py::test_button_exist --alluredir=allure-results
       - name: second_test
         if: "github.event.inputs.deployment_target == 'second_test'"
-        run: pytest
+        run: pytest tests/test_like_a_buttonn_page.py::test_button2_exist --alluredir=allure-results
